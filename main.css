@@ -3,7 +3,7 @@
 :root{
     --primary-color :#34D399;
     --heading-color : #6B7280;
-    --off-white :#D1D5DB;
+    --off-white :#E5E7EB;
 }
 
 hr{
@@ -115,7 +115,8 @@ body{
 }
 
 .ow{
-    background-color: var(--off-white) ;
+    background-color: var(--off-white);
+   
 }
 .section h3{
     text-align: center;
@@ -127,7 +128,7 @@ body{
 .footer{
     background-color: var(--primary-color);
    color: white; 
-    padding: 1rem 0.5rem;
+    padding: 1rem 2rem;
     text-align: center;
     border-top-right-radius : 1rem;
 }
