@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
 :root{
-    --primary-color :#65ccb8;
+    --primary-color :#34D399;
+    --heading-color : #6B7280;
+}
+
+hr{
+    margin : 1rem 0rem ;
 }
 
 body{
@@ -36,13 +41,66 @@ body{
 .link-secondary{
     color: var(--primary-color);
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
 }
 
 
+/** lists **/
+
+.no-bullet {
+    list-style:none;
+}
+
+.inline-list{
+    display: inline;
+    padding: 0rem 1rem ;
+}
 
 
+/** navigation **/
 
+.navigation{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: white;
+
+}
+
+.navbrand{
+    font-weight: bold;
+
+}
+
+.nav-pills{
+    text-align: right;
+}
+
+.navigation .link{
+    color: white;
+}
+
+/** header **/
+
+.header{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;    
+}
+
+.hero-heading{
+    text-align: center;
+    padding-top: 1 rem;
+    color: var(--heading-color);
+}
+
+.header .header-span{
+    color: var(--primary-color);
+}
 
 
 

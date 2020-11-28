@@ -24,7 +24,7 @@
     <h2>@containers</h2>
 
     <h3>fluid container</h3>
-    <div class ="container ">This is a fluid container and it will go to till the end of the page</div>
+    <div class ="container contianer-fluid">This is a fluid container and it will go to till the end of the page</div>
     
     <h3>center container</h3>
     <div class="container container-center">This is a center container and it will go to specified width</div>
@@ -38,19 +38,23 @@
 
    <h2>@lists</h2> 
    
-   <ul>
+   <h3>unordered list</h3>
+   <ul class="no-bullet">
        <li>Item one</li>
        <li>Item two</li>
        <li>Item three</li>
    </ul>
 
-   <ul>
-       <li>Inline Item one </li>
-       <li>Inline Item two </li>
-       <li>Inline Item three</li>
+   <h3>unordered inline list</h3>
+   <ul class="no-bullet">
+       <li class="inline-list">Inline Item one </li>
+       <li class="inline-list">Inline Item two </li>
+       <li class ="inline-list">Inline Item three</li>
    </ul>
 
-   <ol>
+   <h3>reverse ordered list</h3>
+
+   <ol reversed>
        <li>milk</li>
        <li>egg</li>
        <li>bread</li>
@@ -59,24 +63,27 @@
    <hr>
    
    <h2>@nav</h2>
-   <div>
-       <ul>
-           <li>
-               <a href="/">home</a>
+   <nav class="navigation container">
+       <div class="navbrand">iambrand</div>
+       <ul class="no-bullet nav-pills">
+           <li class="inline-list">
+               <a class="link" href="/">home</a>
            </li>
-           <li>
-            <a href="/">products</a>
+           <li class="inline-list">
+            <a class="link" href="/">products</a>
         </li>
-        <li>
-            <a href="/">about</a>
+        <li class="inline-list">
+            <a class="link" href="/">about</a>
         </li>
        </ul>
-   </div>
+    </nav>
+
+    <hr>
 
    <h2>@header</h2>
-   <header>
-       <img src="/images/hero-image.svg">
-       <h1>Heading inside hero</h1>
+   <header class="header">
+       <img class="hero-img" src="/images/hero-image.svg">
+       <h1 class ="hero-heading">Heading inside <span class="header-span">hero</span> </h1>
    </header>
 
    <hr>
