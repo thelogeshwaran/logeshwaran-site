@@ -130,7 +130,7 @@ body{
    color: white; 
     padding: 1rem 2rem;
     text-align: center;
-    border-top-right-radius : 1rem;
+    border-bottom-left-radius : 1rem;
 }
 .footer-heading{
     padding: 1rem;
@@ -140,4 +140,9 @@ body{
 .footer .link{
     color: white;
 
+}
+
+.logo-img{
+    max-width: 50px;
+    display: inline-block;    
 }
