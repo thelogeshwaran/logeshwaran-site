@@ -1,4 +1,33 @@
-# student portfolio 
+# PORTFOLIO
+
+# Getting started
+
+Hey ! Welcome to my portfolio . It contains details about my projects and blogs. Created with HTML and CSS
+
+Here is a picture about quizz..
+
+![Screenshot](/images/screenshot.png)
+
+****
+## Built with :
+1. [HTML](https://html.com/)
+2. [CSS](https://en.wikipedia.org/wiki/CSS)
 
 
-Hey ! Welcome to my portfolio . It contains details about my projects and languages .
+********
+
+## More about quiz :
+ * It's porfolio wesite about myself , it contains my project, blogs and social media links.
+ * It is created with Html and css. 
+
+## Project link :
+link :https://thelogeshwaran.netlify.app/
+ ## Thank you !
+
+
+
+
+
+
+
+
