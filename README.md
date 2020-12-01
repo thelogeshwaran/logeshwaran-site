@@ -4,7 +4,7 @@
 
 Hey ! Welcome to my portfolio . It contains details about my projects and blogs. Created with HTML and CSS
 
-Here is a picture about quizz..
+Here is a picture of my porfolio..
 
 ![Screenshot](/images/screenshot.png)
 
