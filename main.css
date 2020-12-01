@@ -79,6 +79,7 @@ body{
 
 .navigation .link{
     color: white;
+    padding:0rem 0rem;
 }
 .navigation .link-active{
     font-weight: bold;
@@ -145,4 +146,8 @@ body{
 .logo-img{
     max-width: 70px;
     display: inline-block;    
+}
+
+.insta{
+    padding:2rem;
 }
