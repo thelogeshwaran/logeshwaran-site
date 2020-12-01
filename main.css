@@ -101,7 +101,7 @@ body{
 
 .hero-heading{
     text-align: center;
-    padding-top: 1 rem;
+    padding-top:  2rem;
     color: var(--heading-color);
 }
 
@@ -150,4 +150,9 @@ body{
 
 .insta{
     padding:2rem;
+}
+
+.tech-head{
+    text-align: center;
+    padding-bottom: 1rem;
 }
