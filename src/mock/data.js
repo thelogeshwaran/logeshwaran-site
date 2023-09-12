@@ -19,10 +19,10 @@ export const heroData = {
 export const aboutData = {
   img: 'Profile_Picture.jpg',
   paragraphOne:
-    'An enthusiastic learner from the graduating batch of 2021, skilled at Full stack Web Application Development. Seeking a fulltime role as a Web Developer.',
+    'Motivated and detail-oriented web developer with a background in designing and developing responsive websites and mobile apps. Proficient in troubleshooting and debugging complex code to improve website functionality and user experience. Enthusiastic about staying current with the latest industry trends and technologies.',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/18blVgk5Hw70bIwA6gi495eYqX9H--xwp/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1Pb4irtEUV0K_i9OS6WSW4cMIPviW8KHc/view?usp=sharing',
 };
 
 // PROJECTS DATA
