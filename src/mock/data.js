@@ -17,16 +17,38 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'Profile_Picture.jpg',
-  paragraphOne:
-    'Motivated and detail-oriented web developer with a background in designing and developing responsive websites and mobile apps. Proficient in troubleshooting and debugging complex code to improve website functionality and user experience. Enthusiastic about staying current with the latest industry trends and technologies.',
+  img: 'Profile_Picture.jpeg',
+  paragraphOne: `Motivated and detail-oriented web developer with a strong foundation in designing and developing responsive websites and mobile apps. Proficient in troubleshooting and debugging complex code, particularly in React.js and Next.js environments, to enhance website functionality and optimize user experience. Passionate about staying abreast of the latest industry trends and technologies, including microfrontend architecture, in which I've contributed by delivering talks.`,
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/1Pb4irtEUV0K_i9OS6WSW4cMIPviW8KHc/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1VvpL-dpYCubeEo4lpfMFhdjcqD08Lmnp/view?usp=sharing',
 };
+
+// TECHTALKDATA
+export const techTalkData = [
+  {
+    id: nanoid(),
+    img: 'https://www.youtube.com/embed/478ye0uVwgk?si=SJmOFhG2GPvC_EhW',
+    title: '',
+    info: ' ',
+    info2: '',
+    url: undefined,
+    repo: '',
+  },
+];
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'MFE_demo.png',
+    title: 'Dashboard - MicroFrontend Demo',
+    info: 'Utilizes React and Vue.js to create a dynamic and scalable user interface that seamlessly integrates multiple frontend frameworks. ',
+    info2:
+      'Supported by a robust CI/CD pipeline, updates are deployed swiftly and reliably, ensuring agility to user needs. Hosted on Amazon Web Services (AWS), our microfrontend architecture optimizes resource utilization for high availability and scalability, providing an innovative solution for modern frontend development',
+    url: 'https://d4o7rc0icswda.cloudfront.net/',
+    repo: 'https://github.com/thelogeshwaran/mfe-react-vue',
+  },
   {
     id: nanoid(),
     img: 'Chatapp.jpeg',
@@ -64,15 +86,15 @@ export const projectsData = [
     url: 'https://gallery-app-3336f.web.app/',
     repo: 'https://github.com/thelogeshwaran/Pexa-bay', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'Expenser.jpeg',
-    title: 'Expenser',
-    info: 'A Finance management app for an individual to track his/her expenditure and income.',
-    info2: 'Contains a chart that visualizes the percentage of each income/expense.',
-    url: 'https://expenser-logesh.netlify.app/',
-    repo: 'https://github.com/thelogeshwaran/Expenser', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'Expenser.jpeg',
+  //   title: 'Expenser',
+  //   info: 'A Finance management app for an individual to track his/her expenditure and income.',
+  //   info2: 'Contains a chart that visualizes the percentage of each income/expense.',
+  //   url: 'https://expenser-logesh.netlify.app/',
+  //   repo: 'https://github.com/thelogeshwaran/Expenser', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
